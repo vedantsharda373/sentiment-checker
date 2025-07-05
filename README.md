@@ -1,0 +1,1 @@
+This is a simple app that tells you the sentiment of the text you input using a finetuned version of BERT. You will need to run the train_model.py in the backend before running the app, since I can't share the model over github. Also, the backend runs on port 8000. 
