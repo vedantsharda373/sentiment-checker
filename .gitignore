@@ -1,0 +1,5 @@
+node_modules/
+frontend/sentiment-ui/build/
+backend/.venv/
+__pycache__/
+*.joblib
