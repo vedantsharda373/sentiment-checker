@@ -25,9 +25,9 @@ class EmotionsOut(BaseModel):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],            # or your specific origins
-    allow_methods=["*"],            # includes OPTIONS, GET, POST, etc.
-    allow_headers=["*"],            # needed if you send custom headers
+    allow_origins=["*"],           
+    allow_methods=["*"],          
+    allow_headers=["*"],          
     allow_credentials=True,
 )
 
